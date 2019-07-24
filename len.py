@@ -1,2 +1,3 @@
-n=input()
-print(len(n))
+number=input()
+count=len(number)
+print(count)
