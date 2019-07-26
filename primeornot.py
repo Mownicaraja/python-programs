@@ -1,7 +1,7 @@
-x=int(input())
-if x>1:
-    for i in range(2,x//2):
-        if x%i==0:
+p=int(input())
+if p>1:
+    for i in range(2,p//2):
+        if p%i==0:
             print("no")
             break
     else:
