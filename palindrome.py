@@ -1,0 +1,11 @@
+no=int(input())
+rev=0
+t=no
+while(t>0):
+    rem=t%10
+    rev=(rev*10)+rem
+    t=t//10
+if(no==rev):
+    print("yes")
+else:
+    print("no")
