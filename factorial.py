@@ -5,4 +5,4 @@ if no==0:
 else:
     for i in range(1,no+1):
         f=f*i
-print(f)
+    print(f)
