@@ -1,6 +1,6 @@
 from collections import OrderedDict
-def dup(s):
-    return "".join(OrderedDict.fromkeys(s))
+def dup(ss):
+    return "".join(OrderedDict.fromkeys(ss))
 if __name__ == "__main__":
-    s=str(input())
-    print(dup(s))
+    ss=str(input())
+    print(dup(ss))
