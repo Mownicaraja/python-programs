@@ -1,0 +1,11 @@
+a=int(input())
+no=list(map(int,input().split()))[:a]
+flag=0
+num=no
+num.sort()
+if(num==no):
+    flag=1
+if(flag):
+    print("yes")
+else:
+    print("no")
